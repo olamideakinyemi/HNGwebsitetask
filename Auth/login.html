@@ -7,24 +7,31 @@
         <link rel="stylesheet" href="login.css" />
     </head>
     <body>
-            <header>
-                <div>
-
+        <header>
+                <nav>
+                    <ul>
+                        <li><a class="active" href="../index.html">About</a></li>
+                        <li><a href="../Auth/registration.html">Register</a></li>
+                        <li><a href="../Auth/login.html">Login</a></li>
+                        <li><a href="..//Auth/contact.html">Contact</a></li>
+                    </ul>
+                </nav>
+                <div class="welcome">
                     <h1>Welcome</h1>
                     <p class="desc">Enter your details to Login</p>
+            </div>
+        </header>
+        <main>
+            <form action="../index.html">
+                <div class="name">
+                    <label>Email</label>
+                    <input class="names" type="text" required />
+                    <label>Password</label>
+                    <input class="names" type="password" required />
                 </div>
-            </header>
-            <main>
-                <form action="../index.html">
-                    <div class="name">
-                        <label>Email</label>
-                        <input class="names" type="text" required />
-                        <label>Password</label>
-                        <input class="names" type="password" required />
-                    </div>
-                    <input class="submit" type="submit" value="Sign In" />
-                </form>
-            </main>
+                <input class="submit" type="submit" value="Sign In" />
+            </form>
+        </main>
         <footer>
             <div class="redirect">
                 <p>Don't have an acount?<a href="./registration.html">Create account</a></p>

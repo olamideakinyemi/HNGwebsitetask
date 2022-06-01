@@ -7,13 +7,17 @@ body{
     color: white;
 }
 
-header{
-    display: flex;
-    justify-content: center;
+
+.welcome{
+   
+    flex-direction: column;
     margin: auto;
 margin-top: 150px;
-margin-right: 206px
+margin-right: 203px;
+text-align: center;
 }
+
+
 
 h1{
     font-size: 40px;
@@ -28,7 +32,7 @@ h1{
  main{
     display: flex;
     justify-content: center;
-    margin-top: 20px;
+    margin-top: 50px;
  
  }
  
@@ -64,3 +68,27 @@ footer{
 .redirect a{
     color: blue;
 }
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: red;
+  }

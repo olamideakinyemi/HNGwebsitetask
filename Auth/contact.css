@@ -1,0 +1,70 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-image: url(../img/adrien-olichon-_GH9LwhlSO4-unsplash.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+   float: left;
+  }
+  
+  li a {
+    display: flex;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: red;
+  }
+
+  main{
+    display: flex;
+    justify-content: center;
+    margin-top: 200px;
+  }
+
+  .name{
+    display: flex;
+    flex-direction: column;
+}
+
+.names{
+   width: 25vw;
+   margin-bottom: 10px;
+   margin-top: 15px;
+   height: 50px;
+   border: 1px solid;
+   border-radius: 5px;
+   padding-left: 10px;
+}
+
+.submit{
+    width: 25vw;
+    height: 50px;
+    border-radius: 5px;
+    margin-top: 15px;
+    color: white;
+    background-color: red;
+}
+
+textarea{
+    height: 15rem;
+    border-radius: 5px;
+    margin-top: 15px;
+    padding: 10px 20px;
+}
