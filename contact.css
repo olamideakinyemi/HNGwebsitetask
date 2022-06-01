@@ -1,19 +1,19 @@
 body{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    background-image: url(../img/adrien-olichon-_GH9LwhlSO4-unsplash.jpeg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: #333;
+  color: white;
 }
 
+header{
+  margin: 50px 70px;
+}
 
 ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #333;
+    background-color: black;
   }
   
   li {
@@ -32,10 +32,34 @@ ul {
     background-color: red;
   }
 
+  header{
+    margin: 50px 70px;
+  }
+
+
+.welcome{
+   
+  flex-direction: column;
+  margin: auto;
+margin-top: 100px;
+margin-right: 203px;
+text-align: center;
+}
+
+
+
+h1{
+  font-size: 40px;
+}
+
+.desc{
+  color: red;
+}
+
   main{
     display: flex;
     justify-content: center;
-    margin-top: 200px;
+    margin-top: 40px;
   }
 
   .name{
@@ -68,3 +92,33 @@ textarea{
     margin-top: 15px;
     padding: 10px 20px;
 }
+
+@media only screen and (max-width: 900px) {
+
+  header{
+  margin: 30px 0px;
+  }
+
+  .welcome{
+    margin: auto;
+  margin-top: 100px;
+  }
+
+main{
+  display: block;
+  margin: 20px 10px;
+}
+
+  .names{
+    width: 100%;
+  }
+
+  .submit{
+    width: 100%;
+  }
+li a{
+  font-size: 10px;
+}
+  
+}
+

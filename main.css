@@ -1,0 +1,169 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-image: url(../img/adrien-olichon-_GH9LwhlSO4-unsplash.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+
+h1 {
+    margin: 50px 70px;
+}
+
+.one {
+    color: red;
+    font-size: x-large;
+    font-weight: 700;
+}
+
+.ulist {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: gray;
+}
+
+.list {
+    float: left;
+}
+
+.list a {
+    display: flex;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.list a:hover {
+    background-color: red;
+}
+
+h1 {
+    margin-top: 70px;
+}
+
+main {
+    width: 100%;
+}
+
+.container {
+    margin: 50px 70px;
+}
+
+.aboutimage {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+}
+
+.about {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.about p {
+    width: 75%;
+    height: 75%;
+    line-height: 30px;
+}
+
+.image {
+    width: 50%;
+}
+
+img {
+    width: 75%;
+    height: 75%;
+    border-radius: 15px;
+}
+
+.hobbies {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.generalul {
+    line-height: 30px;
+}
+
+.generalli {
+    font-size: larger;
+}
+
+.hr3 {
+    border: 0;
+    height: 2px;
+    background-image: linear-gradient(to right, transparent, #ccc, transparent);
+    margin: 40px 0px;
+}
+
+.secondli{
+  width: 90%;
+}
+.hbs{
+  display: flex;
+  justify-content: space-between;
+}
+
+/* footer{
+  display: block;
+}
+
+.text{
+ float: left;
+}
+
+.text p{
+  display: flex;
+  padding: 16px 40px;
+}
+footer{
+  list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: gray;
+} */
+
+@media only screen and (max-width: 600px) {
+    h1 {
+        margin: 50px 10px;
+    }
+
+    .container {
+        margin: 20px 10px;
+    }
+    header {
+        margin: 30px 0px;
+    }
+    .aboutimage {
+        display: flex;
+        flex-direction: column;
+    }
+    .about {
+        width: 100%;
+    }
+    .image {
+        width: 100%;
+    }
+
+    img {
+        width: 100%;
+    }
+    .about p {
+        width: 100%;
+    }
+    .list a {
+        font-size: 10px;
+    }
+    .hbs{
+      display: flex;
+      flex-direction: column;
+    }
+}

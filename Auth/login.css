@@ -1,11 +1,10 @@
 body{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    background-image: url(../img/adrien-olichon-_GH9LwhlSO4-unsplash.jpeg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: #333;
+  color: white;
 }
+
+
 
 
 .welcome{
@@ -17,7 +16,9 @@ margin-right: 203px;
 text-align: center;
 }
 
-
+header{
+  margin: 50px 70px;
+}
 
 h1{
     font-size: 40px;
@@ -69,13 +70,14 @@ footer{
     color: blue;
 }
 
+
 ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #333;
-  }
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: black;
+}
   
   li {
     float: left;
@@ -91,4 +93,34 @@ ul {
   
   li a:hover {
     background-color: red;
+  }
+
+
+  @media only screen and (max-width: 900px) {
+    header{
+      margin: 30px 0px;
+      }
+    .welcome{
+      margin: auto;
+    margin-top: 100px;
+    }
+  main{
+      display: block;
+      margin: 20px 10px;
+  }
+    .names{
+      width: 100%;
+    }
+  
+    .submit{
+      width: 100%;
+    }
+  li a{
+    font-size: 10px;
+  }
+
+  footer{
+      font-size: 10px;
+  }
+    
   }
