@@ -111,25 +111,33 @@ img {
   justify-content: space-between;
 }
 
-/* footer{
-  display: block;
+footer{
+  background-color: gray;
+  padding: 14px 16px;
+ 
+}
+
+.footercontainer{
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 70px;
+}
+
+.link{
+  display: flex;
+  flex-direction: column;
+  line-height: 50px;
+  font-size: 15px;
+}
+
+.link a{
+  text-decoration: none;
+  color: white;
 }
 
 .text{
- float: left;
+  font-size: 20px;
 }
-
-.text p{
-  display: flex;
-  padding: 16px 40px;
-}
-footer{
-  list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: gray;
-} */
 
 @media only screen and (max-width: 600px) {
     h1 {
@@ -166,4 +174,14 @@ footer{
       display: flex;
       flex-direction: column;
     }
+    .footercontainer {
+      margin: 20px 10px;
+  }
+  .text{
+    font-size: 15px;
+  }
+  .link{
+    font-size: 10px;
+  }
+ 
 }
